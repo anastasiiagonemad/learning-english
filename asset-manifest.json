@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.67870357.css",
-    "main.js": "/static/js/main.d7433b99.js",
-    "static/media/sticker.png": "/static/media/sticker.2b74a01a75bf8f161af5.png",
-    "index.html": "/index.html",
-    "main.67870357.css.map": "/static/css/main.67870357.css.map",
-    "main.d7433b99.js.map": "/static/js/main.d7433b99.js.map"
+    "main.css": "/anastasiiagonemad/learning-english/static/css/main.aa18bb15.css",
+    "main.js": "/anastasiiagonemad/learning-english/static/js/main.d7433b99.js",
+    "static/media/sticker.png": "/anastasiiagonemad/learning-english/static/media/sticker.2b74a01a75bf8f161af5.png",
+    "index.html": "/anastasiiagonemad/learning-english/index.html",
+    "main.aa18bb15.css.map": "/anastasiiagonemad/learning-english/static/css/main.aa18bb15.css.map",
+    "main.d7433b99.js.map": "/anastasiiagonemad/learning-english/static/js/main.d7433b99.js.map"
   },
   "entrypoints": [
-    "static/css/main.67870357.css",
+    "static/css/main.aa18bb15.css",
     "static/js/main.d7433b99.js"
   ]
 }
