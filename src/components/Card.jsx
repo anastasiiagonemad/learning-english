@@ -1,11 +1,13 @@
 import React from 'react';
 
-function Card() {
+function Card(props) {
+  const { english, transcription } = props;
   return (
     <React.Fragment>
       <div className="card-content">
         <div className="card">
-          <p>Cat</p>
+          <p>{english}</p>
+          <p>{transcription}</p>
         </div>
       </div>
     </React.Fragment>

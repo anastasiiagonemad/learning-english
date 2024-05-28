@@ -1,0 +1,27 @@
+.card-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2rem;
+    column-gap: 5rem;
+}
+
+.no,
+.remaining,
+.yes {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.no {
+    background-color: Salmon;
+}
+
+.remaining {
+    background-color: Wheat;
+}
+
+.yes {
+    background-color: YellowGreen;
+}

@@ -1,0 +1,25 @@
+.card,
+.translation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+    background: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin: 1em;
+    border-radius: 25px;
+}
+.card p,
+.translation {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.card-translater {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    column-gap: 2em;
+    align-items: center;
+    justify-content: center;
+}
