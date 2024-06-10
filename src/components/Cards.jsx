@@ -149,14 +149,31 @@ const words = [
 function Cards() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showTranslation, setShowTranslation] = useState(false);
+  const [buttonTextNo, setButtonTextNo] = useState("Don't know");
+  const [buttonTextYes, setButtonTextYes] = useState('Know');
 
   const handleNoButtonClick = () => {
-    setShowTranslation(true);
+    if (currentIndex < words.length - 1) {
+      setCurrentIndex(currentIndex + 1);
+      setShowTranslation(true);
+      setButtonTextNo('🥵');
+      setButtonTextYes('✅');
+    } else {
+      alert('Testing is over! Click for start again');
+      setCurrentIndex(0);
+    }
   };
 
   const handleYesButtonClick = () => {
-    setCurrentIndex((prevIndex) => prevIndex + 1);
-    setShowTranslation(false);
+    if (currentIndex < words.length - 1) {
+      setCurrentIndex((prevIndex) => prevIndex + 1);
+      setShowTranslation(false);
+      setButtonTextNo("Don't know");
+      setButtonTextYes('Know');
+    } else {
+      alert('Testing is over! Click for start again');
+      setCurrentIndex(0);
+    }
   };
 
   return (
@@ -174,11 +191,11 @@ function Cards() {
 
       <div className="card-buttons">
         <button className="no" onClick={handleNoButtonClick}>
-          Don't know
+          {buttonTextNo}
         </button>
         <button className="remaining">Remaining Cards</button>
         <button className="yes" onClick={handleYesButtonClick}>
-          Know
+          {buttonTextYes}
         </button>
       </div>
     </div>
