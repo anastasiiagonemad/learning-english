@@ -154,7 +154,7 @@ function Cards() {
 
   const handleNoButtonClick = () => {
     if (currentIndex < words.length - 1) {
-      setCurrentIndex(currentIndex + 1);
+      setCurrentIndex(currentIndex);
       setShowTranslation(true);
       setButtonTextNo('🥵');
       setButtonTextYes('✅');
