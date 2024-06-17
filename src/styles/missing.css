@@ -1,0 +1,19 @@
+.missing__page {
+    background: url("../assets/images/404.jpg");
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 1fr 1fr;
+    gap: 5rem;
+    margin-top: 90px;
+}
+
+.missing__page p {
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}

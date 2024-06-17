@@ -1,0 +1,37 @@
+.home {
+    margin-top: 130px;
+}
+
+.home__title img {
+    width: 60%;
+}
+
+.home__title {
+    text-align: center;
+    margin: 5rem;
+}
+
+.home__title h2 {
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+.home__second-p,
+.home__third-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 1rem 5rem 1rem;
+    gap: 1rem;
+}
+
+.home__second-p img,
+.home__third-p img {
+    width: 30%;
+}
+
+.home__last-p p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5em;
+}

@@ -3,7 +3,7 @@ import '../styles/footer.css';
 
 function Footer() {
   return (
-    <React.Fragment>
+    <div>
       <div>
         <ul className="footer">
           <li>About us</li>
@@ -12,7 +12,7 @@ function Footer() {
           <li>Contact Us</li>
         </ul>
       </div>
-    </React.Fragment>
+    </div>
   );
 }
 
