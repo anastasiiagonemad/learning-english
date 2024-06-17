@@ -193,7 +193,7 @@ function Cards() {
         <button className="no" onClick={handleNoButtonClick}>
           {buttonTextNo}
         </button>
-        <button className="remaining">Remaining Cards</button>
+
         <button className="yes" onClick={handleYesButtonClick}>
           {buttonTextYes}
         </button>
