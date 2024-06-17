@@ -1,7 +1,7 @@
 .footer {
     border-top: 2px solid black;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     margin: 5rem 2rem 2rem 2rem;
     padding: 2rem;
     column-gap: 2rem;

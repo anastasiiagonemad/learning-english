@@ -1,8 +1,10 @@
 .card-buttons {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     margin: 2rem;
-    column-gap: 5rem;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    align-items: center;
 }
 
 .no,

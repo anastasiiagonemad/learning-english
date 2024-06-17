@@ -7,7 +7,7 @@ function Header() {
   return (
     <div className="header">
       <div className="header__logo">
-        <Link className="header__logo-link" to="/">
+        <Link className="header__logo-link" to="/learning-english">
           L.E.E.
         </Link>
         <p>Learn English Easily</p>
@@ -16,7 +16,7 @@ function Header() {
         <nav>
           <ul>
             <li>
-              <Link className="header__nav-link" to="/">
+              <Link className="header__nav-link" to="/learning-english">
                 Home
               </Link>
             </li>
