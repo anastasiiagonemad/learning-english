@@ -15,9 +15,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 5rem;
+    padding: 4rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    margin: 1em;
     border-radius: 25px;
     text-align: center;
 }
@@ -28,10 +27,10 @@
 .modal-btn {
     background: none;
     border: none;
-    font-size: 2em;
+    font-size: 1.5em;
     position: fixed;
     top: 5%;
-    left: 90%;
+    left: 85%;
     cursor: pointer;
 }
 

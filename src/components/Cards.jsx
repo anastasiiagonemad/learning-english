@@ -19,7 +19,7 @@ function Cards() {
       noButtonRef.current.classList.add('focused');
       setTimeout(() => {
         noButtonRef.current.classList.remove('focused');
-      }, 3000);
+      }, 2000);
     }
   }, [currentIndex]);
 

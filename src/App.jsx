@@ -9,7 +9,7 @@ import Missing from './components/Missing';
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="app">
         <Header />
         <Routes>
           <Route path="/learning-english" element={<Home />} />

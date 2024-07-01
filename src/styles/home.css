@@ -6,7 +6,9 @@
     align-items: center;
     place-items: center;
     margin-top: 10rem;
+    margin-bottom: 10rem;
     text-align: center;
+    flex: 1;
 }
 
 .home-main h2 {
@@ -14,5 +16,5 @@
 }
 
 .home-main img {
-    width: 100%;
+    width: 50%;
 }

@@ -12,9 +12,10 @@ body {
   --title-color: #4b2d9f;
 }
 
-.App {
-  display: grid;
-  grid-template-rows: repeat(autofill);
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vw;
 }
 
 h1,
