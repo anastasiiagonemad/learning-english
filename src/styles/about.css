@@ -1,3 +1,42 @@
 .about {
-    margin-top: 150px;
+    margin-top: 130px;
+}
+
+.about__title img {
+    width: 60%;
+}
+
+.about__title {
+    text-align: center;
+    margin: 5rem;
+}
+
+.about__title h2 {
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+.about__second-p,
+.about__third-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 1rem 5rem 1rem;
+    gap: 1rem;
+    background: var(--bg2-color);
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 1px rgba(167, 129, 245, 0.3);
+}
+
+.about__second-p img,
+.about__third-p img {
+    width: 30%;
+}
+
+.about__last-p p {
+    color: var(--bg-color);
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5em;
 }

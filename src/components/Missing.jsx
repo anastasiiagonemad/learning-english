@@ -9,4 +9,4 @@ function Missing() {
   );
 }
 
-export { Missing };
+export default Missing;

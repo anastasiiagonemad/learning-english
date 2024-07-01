@@ -1,165 +1,34 @@
-import React, { useState } from 'react';
-import { Card } from './Card';
+import React, { useState, useRef, useLayoutEffect } from 'react';
+import Card from './Card';
+import Translation from './translation/translation';
 import '../styles/card.css';
 import '../styles/buttons.css';
-
-const words = [
-  {
-    english: 'Horse',
-    transcription: '[ hɔːs ]',
-    russian: 'Лошадь',
-  },
-  {
-    english: 'Hedgehog',
-    transcription: '[ˈhedʒ(h)ɒɡ]',
-    russian: 'Ёж',
-  },
-  {
-    english: 'Сat',
-    transcription: '[cat]',
-    russian: 'Кошка',
-  },
-  {
-    english: 'Dad',
-    transcription: '[dæd]',
-    russian: 'Отец',
-  },
-  {
-    english: 'Brilliant',
-    transcription: '[ˈbrilyənt]',
-    russian: 'Блестящий',
-  },
-  {
-    english: 'Flower',
-    transcription: '[ˈflaʊər]',
-    russian: 'Цветок',
-  },
-  {
-    english: 'Girl',
-    transcription: '[ɡɜːl]',
-    russian: 'Девочка',
-  },
-  {
-    english: 'Rode',
-    transcription: '[rōd]',
-    russian: 'Дорогa',
-  },
-  {
-    english: 'Fly',
-    transcription: '[ flai ]',
-    russian: 'Летать',
-  },
-  {
-    english: 'Pilot',
-    transcription: '[ˈpailət]',
-    russian: 'Пилот',
-  },
-  {
-    english: 'Hospital',
-    transcription: '[ ˈhɔspitl ]',
-    russian: 'Больница',
-  },
-  {
-    english: 'Estate',
-    transcription: '[ isˈteit ]',
-    russian: 'Поместье, имущество, сословие',
-  },
-  {
-    english: 'Apartment',
-    transcription: '[ əˈpɑ:tmənt ]',
-    russian: 'Квартира',
-  },
-  {
-    english: 'Bakery',
-    transcription: '[ ˈbeikəri ]',
-    russian: 'Пекарня',
-  },
-  {
-    english: 'Temple',
-    transcription: '[ templ ]',
-    russian: 'Храм',
-  },
-  {
-    english: 'Church',
-    transcription: ' [ʧə:ʧ ]',
-    russian: 'Церковь',
-  },
-  {
-    english: 'Dentist',
-    transcription: '[ ˈdentist ]',
-    russian: 'Зубной врач',
-  },
-  {
-    english: 'Doctor',
-    transcription: '[ ˈdɔktə ]',
-    russian: 'Доктор',
-  },
-  {
-    english: 'Nurse',
-    transcription: ' nə:s ]',
-    russian: 'Няня',
-  },
-  {
-    english: 'Cup',
-    transcription: '[ kʌp ]',
-    russian: 'Чашка',
-  },
-  {
-    english: 'Glass',
-    transcription: '[ glɑ:s ]',
-    russian: 'Стакан, бокал',
-  },
-  {
-    english: 'Сupboard',
-    transcription: '[ ˈkʌbəd ]',
-    russian: 'Буфет',
-  },
-  {
-    english: 'Plate',
-    transcription: '[ pleit ]',
-    russian: 'Тарелка',
-  },
-  {
-    english: 'Saucepan',
-    transcription: '[ ˈsɔ:spən ]',
-    russian: 'Кастрюля',
-  },
-  {
-    english: 'Jug',
-    transcription: '[ ʤʌg ]',
-    russian: 'Кувшин',
-  },
-  {
-    english: 'Kettle',
-    transcription: '[ ketl ]',
-    russian: 'Чайник',
-  },
-  {
-    english: 'Sink',
-    transcription: '[ siŋk ]',
-    russian: 'Тонуть',
-  },
-  {
-    english: 'Knife',
-    transcription: '[ naif ]',
-    russian: 'Нож',
-  },
-];
+import words from './words/words';
 
 function Cards() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showTranslation, setShowTranslation] = useState(false);
-  const [buttonTextNo, setButtonTextNo] = useState("Don't know");
-  const [buttonTextYes, setButtonTextYes] = useState('Know');
+  const [showModal, setShowModal] = useState(false);
+  const [countCards, setCountCards] = useState(0);
+
+  const noButtonRef = useRef(null);
+
+  useLayoutEffect(() => {
+    if (noButtonRef.current && document.querySelector('.cards-items')) {
+      noButtonRef.current.focus();
+      noButtonRef.current.classList.add('focused');
+      setTimeout(() => {
+        noButtonRef.current.classList.remove('focused');
+      }, 3000);
+    }
+  }, [currentIndex]);
 
   const handleNoButtonClick = () => {
     if (currentIndex < words.length - 1) {
-      setCurrentIndex(currentIndex);
       setShowTranslation(true);
-      setButtonTextNo('🥵');
-      setButtonTextYes('✅');
+      setShowModal(true);
     } else {
-      alert('Testing is over! Click for start again');
+      alert('Testing is over! Click to start again');
       setCurrentIndex(0);
     }
   };
@@ -168,38 +37,48 @@ function Cards() {
     if (currentIndex < words.length - 1) {
       setCurrentIndex((prevIndex) => prevIndex + 1);
       setShowTranslation(false);
-      setButtonTextNo("Don't know");
-      setButtonTextYes('Know');
+      setCountCards(countCards + 1);
     } else {
-      alert('Testing is over! Click for start again');
+      alert('Testing is over! Click to start again');
       setCurrentIndex(0);
+      setCountCards(0);
     }
+  };
+
+  const handleModalClose = () => {
+    setShowModal(false);
   };
 
   return (
     <div className="cards-items">
+      <div className="card-known">
+        <p className="card-count-name">
+          You know <span>{countCards}</span> words.
+        </p>
+      </div>
       <div className="card-translater">
         <div>
           <Card {...words[currentIndex]} />
         </div>
-        <div>
-          {showTranslation && (
-            <p className="translation">{words[currentIndex].russian}</p>
-          )}
-        </div>
       </div>
 
       <div className="card-buttons">
-        <button className="no" onClick={handleNoButtonClick}>
-          {buttonTextNo}
+        <button ref={noButtonRef} className="no" onClick={handleNoButtonClick}>
+          Don't know
         </button>
 
         <button className="yes" onClick={handleYesButtonClick}>
-          {buttonTextYes}
+          Know
         </button>
       </div>
+
+      <Translation
+        show={showModal}
+        handleClose={handleModalClose}
+        word={words[currentIndex]}
+      />
     </div>
   );
 }
 
-export { Cards };
+export default Cards;

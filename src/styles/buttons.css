@@ -1,6 +1,6 @@
 .card-buttons {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: 1fr 1fr;
     margin: 2rem;
     column-gap: 2rem;
     row-gap: 2rem;
@@ -20,6 +20,10 @@
     background-color: Salmon;
 }
 
+.no.focused {
+    animation: blink 1s infinite;
+}
+
 .no:hover,
 .remaining:hover,
 .yes:hover {
@@ -33,4 +37,16 @@
 
 .yes {
     background-color: YellowGreen;
+}
+
+@keyframes blink {
+    0% {
+        background-color: #ff0000;
+    }
+    50% {
+        background-color: #ffcccc;
+    }
+    100% {
+        background-color: #ff0000;
+    }
 }

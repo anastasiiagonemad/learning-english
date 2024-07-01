@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem;
-    background-color: black;
+    background-color: var(--header-color);
     position: fixed;
     width: 98vw;
     top: 0;

@@ -5,7 +5,7 @@
     align-items: center;
     flex-direction: column;
     padding: 1em;
-    background: white;
+    background: var(--bg-color);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     margin: 1em;
     border-radius: 25px;
@@ -18,8 +18,22 @@
 
 .card-translater {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: 1fr;
     column-gap: 2em;
     align-items: center;
     justify-content: center;
+}
+
+.card-known {
+    display: flex;
+    justify-content: center;
+}
+.card-known span {
+    font-size: 2em;
+    font-weight: 600;
+    padding: 0 0.5rem 0 0.5rem;
+}
+
+.card-count-name {
+    color: var(--bg2-color);
 }

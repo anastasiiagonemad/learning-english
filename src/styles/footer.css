@@ -1,18 +1,17 @@
 .footer {
-    border-top: 2px solid black;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    margin: 5rem 2rem 2rem 2rem;
+    margin: 0 auto;
     padding: 2rem;
     column-gap: 2rem;
+
+    background-color: var(--header-color);
 }
 
 .footer li {
     list-style: none;
     text-align: center;
     cursor: pointer;
-}
-
-.footer li:hover {
-    color: ForestGreen;
+    line-height: 1.5;
+    color: var(--text1-color);
 }

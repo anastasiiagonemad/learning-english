@@ -4,5 +4,25 @@ body {
     "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: Ivory;
+  background-color: white;
+  --header-color: #2c5d37;
+  --text1-color: yellow;
+  --bg2-color: #a59cd3;
+  --bg-color: #ee51b1;
+  --title-color: #4b2d9f;
+}
+
+.App {
+  display: grid;
+  grid-template-rows: repeat(autofill);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--title-color);
+}
+
+p {
+  color: var(--text1-color);
 }
