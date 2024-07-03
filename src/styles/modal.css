@@ -40,6 +40,16 @@
     line-height: 2;
 }
 
+.translation-animals-rus {
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+.translation-img {
+    width: 70%;
+    object-fit: cover;
+}
+
 .display-block {
     display: block;
 }

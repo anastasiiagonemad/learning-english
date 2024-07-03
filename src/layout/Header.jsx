@@ -27,7 +27,12 @@ function Header() {
             </li>
             <li>
               <Link className="header__nav-link" to="/StartLearning">
-                Start Learning
+                Words
+              </Link>
+            </li>
+            <li>
+              <Link className="header__nav-link" to="/Categories">
+                Categories
               </Link>
             </li>
           </ul>

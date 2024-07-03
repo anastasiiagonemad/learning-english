@@ -1,8 +1,7 @@
 import React from 'react';
-import word from '../words/words';
 import '../../styles/modal.css';
 
-const Translation = ({ show, handleClose, word }) => {
+const CategorieTranslation = ({ show, handleClose, animal }) => {
   const showHideClassName = show ? 'modal display-block' : 'modal display-none';
 
   return (
@@ -11,13 +10,14 @@ const Translation = ({ show, handleClose, word }) => {
         <button className="modal-btn" onClick={handleClose}>
           ✕
         </button>
-        <p>Congratulations! 🎉 You know it.</p>
-        <p className="translation-words">
-          {word.english} это {word.russian.toUpperCase()}
+        <p className="translation-animals">{animal.name}</p>
+        <p className="translation-animals-rus">
+          {animal.translate.toUpperCase()}
         </p>
+        <img className="translation-img" src={animal.img} alt="animal" />
       </section>
     </div>
   );
 };
 
-export default Translation;
+export default CategorieTranslation;

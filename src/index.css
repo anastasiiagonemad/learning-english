@@ -10,7 +10,6 @@ body {
   --bg2-color: #a59cd3;
   --bg-color: #ee51b1;
   --title-color: #4b2d9f;
-  padding: 0.5rem;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
@@ -27,6 +26,11 @@ html {
   display: flex;
   flex-direction: column;
   min-height: 100vw;
+}
+
+.cards-items {
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 h1,

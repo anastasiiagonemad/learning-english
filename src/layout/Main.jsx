@@ -3,7 +3,7 @@ import Cards from '../components/Cards';
 function Main() {
   return (
     <div>
-      <div>
+      <div className="cards">
         <Cards />
       </div>
     </div>
