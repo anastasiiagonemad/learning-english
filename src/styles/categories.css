@@ -36,12 +36,12 @@
     text-align: center;
 }
 
-.categories__btn span {
+.categories__link span {
     font-weight: 200;
     font-size: 0.875em;
 }
 
-.categories__btn:hover {
+.categories__link:hover {
     background-color: var(--text1-color);
     color: var(--bg-color);
 }
