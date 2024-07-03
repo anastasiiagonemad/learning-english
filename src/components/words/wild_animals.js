@@ -99,7 +99,7 @@ const wildAnimals = [
     name: 'Panda',
     transcript: '[ˈpændə]',
     translate: 'Панда',
-    img: '',
+    img: 'https://img.freepik.com/free-vector/hand-drawn-cartoon-panda-illustration_23-2150456173.jpg?t=st=1720010285~exp=1720013885~hmac=87d6e416ebaf550c53788e914c3accaea7dd3cfcdd19e22205236285ca417215&w=1380',
   },
   {
     name: 'Jaguar',

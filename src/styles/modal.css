@@ -46,8 +46,15 @@
 }
 
 .translation-img {
+    min-height: 150px;
+    max-height: 350px;
     width: 70%;
-    object-fit: cover;
+}
+
+.translation-loading {
+    display: block;
+    text-align: center;
+    color: var(--bg2-color);
 }
 
 .display-block {
