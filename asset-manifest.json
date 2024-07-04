@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/learning-english/static/css/main.55e9bd5b.css",
-    "main.js": "/learning-english/static/js/main.019e4fda.js",
+    "main.css": "/learning-english/static/css/main.821d231d.css",
+    "main.js": "/learning-english/static/js/main.b026a1a5.js",
     "static/media/pic2.jpg": "/learning-english/static/media/pic2.c4ef854dcaec435958ac.jpg",
     "static/media/pic4.jpg": "/learning-english/static/media/pic4.5fd2ab372d837b53a9a1.jpg",
     "static/media/pic1.jpg": "/learning-english/static/media/pic1.bc50eea421d7086e9cf4.jpg",
     "static/media/pic3.jpg": "/learning-english/static/media/pic3.54f38af3cd1fe49d1fb0.jpg",
     "static/media/404.jpg": "/learning-english/static/media/404.b826df5be926b08103d4.jpg",
     "index.html": "/learning-english/index.html",
-    "main.55e9bd5b.css.map": "/learning-english/static/css/main.55e9bd5b.css.map",
-    "main.019e4fda.js.map": "/learning-english/static/js/main.019e4fda.js.map"
+    "main.821d231d.css.map": "/learning-english/static/css/main.821d231d.css.map",
+    "main.b026a1a5.js.map": "/learning-english/static/js/main.b026a1a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.55e9bd5b.css",
-    "static/js/main.019e4fda.js"
+    "static/css/main.821d231d.css",
+    "static/js/main.b026a1a5.js"
   ]
 }
