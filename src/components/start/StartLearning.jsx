@@ -1,4 +1,4 @@
-import { Main } from '../layout/Main';
+import { Main } from '../../layout/main/Main';
 function StartLearning() {
   return (
     <div className="startLearning">

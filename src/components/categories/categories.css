@@ -17,7 +17,7 @@
     display: grid;
     grid-template-columns: repeat(autofill, minmax(350px, 1fr));
     grid-template-rows: repeat(autofill, minmax(350px, 1fr));
-    row-gap: 3rem;
+    row-gap: 1.5rem;
 }
 
 .categories__link {

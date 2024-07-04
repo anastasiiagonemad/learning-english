@@ -1,7 +1,7 @@
-import '../styles/about.css';
-import pic1 from '../assets/images/pic1.jpg';
-import pic2 from '../assets/images/pic2.jpg';
-import pic3 from '../assets/images/pic3.jpg';
+import '../about/about.css';
+import pic1 from '../../assets/images/pic1.jpg';
+import pic2 from '../../assets/images/pic2.jpg';
+import pic3 from '../../assets/images/pic3.jpg';
 
 function About() {
   return (

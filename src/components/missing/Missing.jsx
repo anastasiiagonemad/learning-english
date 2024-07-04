@@ -1,4 +1,4 @@
-import '../styles/missing.css';
+import './missing.css';
 
 function Missing() {
   return (

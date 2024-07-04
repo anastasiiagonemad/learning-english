@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../../styles/modal.css';
+import './modal.css';
 
 const CategorieTranslation = ({ show, handleClose, animal }) => {
   const [loading, setLoading] = useState(true);

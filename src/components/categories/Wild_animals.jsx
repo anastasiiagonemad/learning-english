@@ -1,23 +1,23 @@
 import React, { useState } from 'react';
-import CardWildAnimals from './CardWildAnimals';
+import CardWildAnimals from '../cards/CardWildAnimals';
 import CategorieTranslation from '../translation/CategorieTranslation';
-import '../../styles/card.css';
-import '../../styles/buttons.css';
+import '../cards/card.css';
+import '../cards/buttons.css';
 import wildAnimals from '../words/wild_animals';
+import EndModal from '../endModal/EndModal';
 
 function WildAnimals() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showTranslation, setShowTranslation] = useState(false);
   const [showModal, setShowModal] = useState(false);
   const [countCards, setCountCards] = useState(0);
+  const [endModal, setEndModal] = useState(false);
 
   const handleNoButtonClick = () => {
     if (currentIndex < wildAnimals.length - 1) {
       setShowTranslation(true);
       setShowModal(true);
-    } else {
-      alert('Testing is over! Click to start again');
-      setCurrentIndex(0);
+      setEndModal(false);
     }
   };
 
@@ -26,15 +26,24 @@ function WildAnimals() {
       setCurrentIndex((prevIndex) => prevIndex + 1);
       setShowTranslation(false);
       setCountCards(countCards + 1);
+      setEndModal(false);
     } else {
-      alert('Testing is over! Click to start again');
-      setCurrentIndex(0);
-      setCountCards(0);
+      setEndModal(true);
     }
   };
 
   const handleModalClose = () => {
     setShowModal(false);
+  };
+
+  const handleEndModal = () => {
+    setEndModal(false);
+  };
+
+  const handleRestartGame = () => {
+    setCurrentIndex(0);
+    setCountCards(0);
+    setEndModal(false);
   };
 
   return (
@@ -64,6 +73,13 @@ function WildAnimals() {
         show={showModal}
         handleClose={handleModalClose}
         animal={wildAnimals[currentIndex]}
+      />
+
+      <EndModal
+        show={endModal}
+        handleClose={handleEndModal}
+        cardCount={countCards}
+        handleRestart={handleRestartGame}
       />
     </div>
   );

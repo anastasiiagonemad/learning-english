@@ -1,9 +1,11 @@
 import React, { useState, useRef, useLayoutEffect } from 'react';
 import Card from './Card';
-import Translation from './translation/translation';
-import '../styles/card.css';
-import '../styles/buttons.css';
-import words from './words/words';
+import Translation from '../translation/Translation';
+import './card.css';
+import './buttons.css';
+import words from '../words/words';
+
+//      Cоздать окно после окончания прохожджения, которое будет перебрасывать в личный кабинет и предлагать добавить выученные слова в словарик. (Данные будут вноситься в localStorage)
 
 function Cards() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -28,7 +30,7 @@ function Cards() {
       setShowTranslation(true);
       setShowModal(true);
     } else {
-      alert('Testing is over! Click to start again');
+      // alert('Testing is over! Click to start again');
       setCurrentIndex(0);
     }
   };
@@ -39,7 +41,7 @@ function Cards() {
       setShowTranslation(false);
       setCountCards(countCards + 1);
     } else {
-      alert('Testing is over! Click to start again');
+      // alert('Testing is over! Click to start again');
       setCurrentIndex(0);
       setCountCards(0);
     }

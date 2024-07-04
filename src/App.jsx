@@ -1,10 +1,10 @@
-import Home from './components/Home';
-import About from './components/About';
-import StartLearning from './components/StartLearning';
-import Header from './layout/Header';
-import Footer from './layout/Footer';
+import Home from './components/home/Home';
+import About from './components/about/About';
+import StartLearning from './components/start/StartLearning';
+import Header from './layout/header/Header';
+import Footer from './layout/footer/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Missing from './components/Missing';
+import Missing from './components/missing/Missing';
 import Categories from './components/categories/Categories';
 import HomeAnimals from './components/categories/Home_animals';
 import Fishes from './components/categories/Fishes';

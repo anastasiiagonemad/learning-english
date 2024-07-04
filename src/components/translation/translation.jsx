@@ -1,6 +1,6 @@
 import React from 'react';
 import word from '../words/words';
-import '../../styles/modal.css';
+import './modal.css';
 
 const Translation = ({ show, handleClose, word }) => {
   const showHideClassName = show ? 'modal display-block' : 'modal display-none';
