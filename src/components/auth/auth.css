@@ -1,0 +1,71 @@
+.auth,
+.login {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.auth-form,
+.login-form {
+    margin-top: 5rem;
+}
+
+.auth-username,
+.auth-email,
+.auth-password,
+.login-username,
+.login-password {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 15% 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-username input,
+.auth-email input,
+.auth-password input,
+.login-username input,
+.login-password input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 3px 10px 1px var(--bg2-color);
+}
+
+.auth-username label,
+.auth-email label,
+.auth-password label,
+.login-username label,
+.login-password label {
+    color: var(--bg-color);
+}
+
+.auth-button,
+.login-button {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.auth-redirection {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-redirection-text {
+    color: var(--title-color);
+    padding: 10px;
+}
+
+.loggedIn {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.loggedIn-title {
+    color: var(--title-color);
+    font-size: 1.275em;
+    font-weight: 600;
+}

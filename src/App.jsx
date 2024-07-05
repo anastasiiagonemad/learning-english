@@ -11,6 +11,10 @@ import Fishes from './components/categories/Fishes';
 import Birds from './components/categories/Birds';
 import RepAmph from './components/categories/Rep_amf';
 import WildAnimals from './components/categories/Wild_animals';
+import Auth from './components/auth/Register';
+import Signin from './components/auth/Login';
+import Register from './components/auth/Register';
+import Login from './components/auth/Login';
 
 function App() {
   return (
@@ -28,8 +32,10 @@ function App() {
           <Route path="/RepAmph" element={<RepAmph />} />
           <Route path="/WildAnimals" element={<WildAnimals />} />
           <Route path="*" element={<Missing />} />
+          <Route path="/Registration" element={<Register />} />
+          <Route path="/Login" element={<Login />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );
