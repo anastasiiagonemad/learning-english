@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/learning-english/static/css/main.66201d1f.css",
-    "main.js": "/learning-english/static/js/main.30d46ce2.js",
+    "main.css": "/learning-english/static/css/main.05c51667.css",
+    "main.js": "/learning-english/static/js/main.e3008802.js",
+    "static/media/draw_me_a_lion_cub_in_the_lion_king_style_with_the_le_3f0d95fa_6.png": "/learning-english/static/media/draw_me_a_lion_cub_in_the_lion_king_style_with_the_le_3f0d95fa_6.35bc46e53e98426eca64.png",
     "static/media/pic2.jpg": "/learning-english/static/media/pic2.c4ef854dcaec435958ac.jpg",
     "static/media/pic4.jpg": "/learning-english/static/media/pic4.5fd2ab372d837b53a9a1.jpg",
     "static/media/pic1.jpg": "/learning-english/static/media/pic1.bc50eea421d7086e9cf4.jpg",
     "static/media/pic3.jpg": "/learning-english/static/media/pic3.54f38af3cd1fe49d1fb0.jpg",
     "static/media/404.jpg": "/learning-english/static/media/404.b826df5be926b08103d4.jpg",
     "index.html": "/learning-english/index.html",
-    "main.66201d1f.css.map": "/learning-english/static/css/main.66201d1f.css.map",
-    "main.30d46ce2.js.map": "/learning-english/static/js/main.30d46ce2.js.map"
+    "main.05c51667.css.map": "/learning-english/static/css/main.05c51667.css.map",
+    "main.e3008802.js.map": "/learning-english/static/js/main.e3008802.js.map"
   },
   "entrypoints": [
-    "static/css/main.66201d1f.css",
-    "static/js/main.30d46ce2.js"
+    "static/css/main.05c51667.css",
+    "static/js/main.e3008802.js"
   ]
 }
