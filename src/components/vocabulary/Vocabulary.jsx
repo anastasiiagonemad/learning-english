@@ -59,7 +59,7 @@ const Vocabulary = () => {
       )}
 
       <div className="vocabulary-form">
-        <div>
+        <div className="vocabulary-input">
           <label htmlFor="word">Cлово</label>
           <input
             value={word}
@@ -72,7 +72,7 @@ const Vocabulary = () => {
         <div className="vocabulary-arrow">
           <p>➡️</p>
         </div>
-        <div>
+        <div className="vocabulary-input">
           <label htmlFor="translate">Перевод</label>
           <input
             value={translate}

@@ -12,6 +12,9 @@
     place-items: center;
     align-items: center;
 }
+.vocabulary-input {
+    display: grid;
+}
 
 .vocabulary-form input {
     padding: 0.5rem;

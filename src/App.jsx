@@ -11,8 +11,6 @@ import Fishes from './components/categories/Fishes';
 import Birds from './components/categories/Birds';
 import RepAmph from './components/categories/Rep_amf';
 import WildAnimals from './components/categories/Wild_animals';
-import Auth from './components/auth/Register';
-import Signin from './components/auth/Login';
 import Register from './components/auth/Register';
 import Login from './components/auth/Login';
 import Account from './components/auth/Account';
