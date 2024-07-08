@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './auth.css';
+import { Link } from 'react-router-dom';
+import { Navigate } from 'react-router-dom';
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -7,10 +9,9 @@ const Login = () => {
   const [loggedIn, setLoggedIn] = useState(false);
 
   const handleLogin = () => {
-    const savedUsername = localStorage.getItem('username');
-    const savedPassword = localStorage.getItem('password');
+    const userArr = JSON.parse(localStorage.getItem(username));
 
-    if (username === savedUsername && password === savedPassword) {
+    if (userArr && userArr.password === password) {
       setLoggedIn(true);
     } else {
       alert('Неверное имя пользователя или пароль');
@@ -24,20 +25,13 @@ const Login = () => {
   };
 
   if (loggedIn) {
-    return (
-      <div className="loggedIn">
-        <p className="loggedIn-title">
-          Добро пожаловать, {localStorage.getItem('username').toUpperCase()}
-        </p>
-        <button onClick={handleLogout}>Выйти</button>
-      </div>
-    );
+    return <Navigate to="/Account" />;
   }
 
   return (
     <div className="login">
       <div className="login-title">
-        <h2>Войти в акканут</h2>
+        <h2>Войти в аккаунт</h2>
       </div>
       <form className="login-form">
         <div className="login-username">
@@ -66,6 +60,10 @@ const Login = () => {
           </button>
         </div>
       </form>
+      <div className="auth-redirection">
+        <p className="auth-redirection-text">Еще не зарегистрированы?</p>
+        <Link to="/Registration">Регистрация</Link>
+      </div>
     </div>
   );
 };

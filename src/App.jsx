@@ -15,6 +15,9 @@ import Auth from './components/auth/Register';
 import Signin from './components/auth/Login';
 import Register from './components/auth/Register';
 import Login from './components/auth/Login';
+import Account from './components/auth/Account';
+import Vocabulary from './components/vocabulary/Vocabulary';
+import Progress from './components/progress/Progress';
 
 function App() {
   return (
@@ -34,6 +37,9 @@ function App() {
           <Route path="*" element={<Missing />} />
           <Route path="/Registration" element={<Register />} />
           <Route path="/Login" element={<Login />} />
+          <Route path="/Account" element={<Account />} />
+          <Route path="/Vocabulary" element={<Vocabulary />} />
+          <Route path="/Progress" element={<Progress />} />
         </Routes>
         {/* <Footer /> */}
       </div>

@@ -1,53 +1,82 @@
-.header {
+.burger {
     display: flex;
     justify-content: space-between;
+    margin: 20px;
     align-items: center;
-    padding: 1.5rem;
     background-color: var(--header-color);
+    padding: 15px;
+    margin: 0;
+    width: 100%;
+}
+
+.icon-account {
+    width: 50px;
+}
+
+.burger-logo img {
+    width: 100px;
+    border-radius: 15px;
+}
+
+.burger-menu {
+    position: relative;
+}
+
+.burger-open {
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    gap: 8px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.burger-icon {
+    background-color: var(--text1-color);
+    padding: 1px 20px;
+}
+
+.menu-modal {
     position: fixed;
-    width: 98vw;
     top: 0;
     left: 0;
-    right: 0;
-    height: 70px;
-}
-
-.header__logo {
-    color: white;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    text-transform: uppercase;
-}
-
-.header__logo-link {
-    color: white;
-    text-decoration: none;
-    font-size: 2em;
-    font-weight: 800;
-}
-
-.header__nav ul {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-.header__nav li {
+.menu {
+    background-color: var(--header-color);
+    padding: 10rem;
+    border-radius: 15px;
+}
+
+.menu ul {
     list-style: none;
+    padding: 0;
 }
 
-.header__nav-link {
-    color: white;
+.menu li {
+    margin-bottom: 1rem;
+}
+
+.menu a {
     text-decoration: none;
-    list-style: none;
-    padding: 0 1rem;
+    color: var(--text1-color);
+    font-size: 1.5em;
 }
 
-.header__nav-link:hover {
-    text-shadow:
-        0 0 5px #fff,
-        0 0 10px #fff,
-        0 0 9px #292736,
-        0 0 11px #292736,
-        0 0 13px #292736,
-        0 0 15px #292736,
-        0 0 17px #292736;
+.close-button {
+    margin-top: 2rem;
+    background-color: var(--bg-color);
+    color: var(--text1-color);
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-style: 1.5em;
 }

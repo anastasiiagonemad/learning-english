@@ -1,22 +1,34 @@
 import React, { useState } from 'react';
 import './auth.css';
-import { Link } from 'react-router-dom';
+import { Link, Navigate } from 'react-router-dom';
 
 const Register = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const [register, setRegister] = useState(false);
 
   const handleRegister = () => {
-    localStorage.setItem('username', username);
-    localStorage.setItem('password', password);
-    setUsername('');
-    setPassword('');
+    if (username && password) {
+      let userObject = JSON.parse(localStorage.getItem(username)) || {};
+      userObject.password = password;
+      userObject.username = username;
+      localStorage.setItem(username, JSON.stringify(userObject));
+      setUsername('');
+      setPassword('');
+      setRegister(true);
+    } else {
+      alert('Пожалуйста, заполните поля регистрации!');
+    }
   };
+
+  if (register) {
+    return <Navigate to="/Account" />;
+  }
 
   return (
     <div className="auth">
       <div className="auth-title">
-        <h2>Авторизация</h2>
+        <h2>Регистрация</h2>
       </div>
       <div className="auth-form">
         <form className="auth-form">

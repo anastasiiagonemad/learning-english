@@ -1,6 +1,6 @@
 .auth,
 .login {
-    margin-top: 150px;
+    margin-top: 1rem;
     text-align: center;
 }
 
@@ -68,4 +68,33 @@
     color: var(--title-color);
     font-size: 1.275em;
     font-weight: 600;
+}
+
+.account {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.account-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+    place-items: center;
+}
+
+.account-links-btn {
+    padding: 1rem;
+    background-color: var(--bg-color);
+    color: var(--text1-color);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 7px 5px 10px 1px rgba(146, 146, 0, 0.3);
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.account-links-btn:hover {
+    background-color: var(--text1-color);
+    color: var(--bg-color);
+    box-shadow: 7px 5px 10px 1px rgba(156, 3, 138, 0.3);
 }
