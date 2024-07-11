@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './quiz.css';
+import Loader from '../loader/Loader';
 
 //сделать модальное окно с переходом в словарик при окончании прохождения квиза или остаться на странице
 
@@ -12,19 +13,30 @@ const Quiz = () => {
   const [showTranslation, setShowTranslation] = useState(false);
   const [correctAnswer, setCorrectAnswer] = useState('');
   const [isCorrect, setIsCorrect] = useState(false);
+  const [timer, setTimer] = useState(3);
 
   useEffect(() => {
-    fetch('http://itgirlschool.justmakeit.ru/api/words')
-      .then((response) => response.json())
-      .then((data) => {
-        setWords(data);
-        setLoading(false);
-      })
-      .catch((error) => {
-        setError(error);
-        setLoading(false);
-      });
+    const timerInterval = setInterval(() => {
+      setTimer((prevTime) => prevTime - 1);
+    }, 1000);
+
+    return () => clearInterval(timerInterval);
   }, []);
+
+  useEffect(() => {
+    if (timer === 0) {
+      fetch('http://itgirlschool.justmakeit.ru/api/words')
+        .then((response) => response.json())
+        .then((data) => {
+          setWords(data);
+          setLoading(false);
+        })
+        .catch((error) => {
+          setError(error);
+          setLoading(false);
+        });
+    }
+  }, [timer]);
 
   const answerValue = (e) => setAnswer(e.target.value);
 
@@ -71,7 +83,7 @@ const Quiz = () => {
       </div>
       <div className="quiz-card">
         {loading ? (
-          <p>Загрузка данных...</p>
+          <Loader />
         ) : error ? (
           <p>Произошла ошибка при загрузке данных.</p>
         ) : (
