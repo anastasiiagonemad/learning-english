@@ -16,6 +16,7 @@ import Login from './components/auth/Login';
 import Account from './components/auth/Account';
 import Vocabulary from './components/vocabulary/Vocabulary';
 import Progress from './components/progress/Progress';
+import Quiz from './components/quiz/Quiz';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
           <Route path="/Account" element={<Account />} />
           <Route path="/Vocabulary" element={<Vocabulary />} />
           <Route path="/Progress" element={<Progress />} />
+          <Route path="/Quiz" element={<Quiz />} />
         </Routes>
         {/* <Footer /> */}
       </div>

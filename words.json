@@ -1,0 +1,700 @@
+{
+  "allWords": [
+    {
+      "english": "Horse",
+      "transcription": "Хорс",
+      "russian": "Лошадь"
+    },
+    {
+      "english": "Hedgehog",
+      "transcription": "Хэджехог",
+      "russian": "Ёж"
+    },
+    {
+      "english": "Сat",
+      "transcription": "Кэт",
+      "russian": "Кошка"
+    },
+    {
+      "english": "Dad",
+      "transcription": "Дэд",
+      "russian": "Отец"
+    },
+    {
+      "english": "Brilliant",
+      "transcription": "Бриллиант",
+      "russian": "Блестящий"
+    },
+    {
+      "english": "Flower",
+      "transcription": "Флауэр",
+      "russian": "Цветок"
+    },
+    {
+      "english": "Girl",
+      "transcription": "Гёл",
+      "russian": "Девочка"
+    },
+    {
+      "english": "Rode",
+      "transcription": "Роуд",
+      "russian": "Дорогa"
+    },
+    {
+      "english": "Fly",
+      "transcription": "Флай",
+      "russian": "Летать"
+    },
+    {
+      "english": "Pilot",
+      "transcription": "Пайлот",
+      "russian": "Пилот"
+    },
+    {
+      "english": "Hospital",
+      "transcription": "Хоспитл",
+      "russian": "Больница"
+    },
+    {
+      "english": "Estate",
+      "transcription": "Эстейт",
+      "russian": "Поместье, имущество, сословие"
+    },
+    {
+      "english": "Apartment",
+      "transcription": "Апартмент",
+      "russian": "Квартира"
+    },
+    {
+      "english": "Bakery",
+      "transcription": "Бэйкери",
+      "russian": "Пекарня"
+    },
+    {
+      "english": "Temple",
+      "transcription": "Тэмпл",
+      "russian": "Храм"
+    },
+    {
+      "english": "Church",
+      "transcription": "Чёрч",
+      "russian": "Церковь"
+    },
+    {
+      "english": "Dentist",
+      "transcription": "Дэнтист",
+      "russian": "Зубной врач"
+    },
+    {
+      "english": "Doctor",
+      "transcription": "Докта",
+      "russian": "Доктор"
+    },
+    {
+      "english": "Nurse",
+      "transcription": "Нёрс",
+      "russian": "Няня"
+    },
+    {
+      "english": "Cup",
+      "transcription": "Кап",
+      "russian": "Чашка"
+    },
+    {
+      "english": "Glass",
+      "transcription": "Гласс",
+      "russian": "Стакан, бокал"
+    },
+    {
+      "english": "Сupboard",
+      "transcription": "Капборд",
+      "russian": "Буфет"
+    },
+    {
+      "english": "Plate",
+      "transcription": "Плэйт",
+      "russian": "Тарелка"
+    },
+    {
+      "english": "Saucepan",
+      "transcription": "Сауспэн",
+      "russian": "Кастрюля"
+    },
+    {
+      "english": "Jug",
+      "transcription": "Джаг",
+      "russian": "Кувшин"
+    },
+    {
+      "english": "Kettle",
+      "transcription": "Кеттл",
+      "russian": "Чайник"
+    },
+    {
+      "english": "Sink",
+      "transcription": "Синк",
+      "russian": "Тонуть"
+    },
+    {
+      "english": "Knife",
+      "transcription": "Найф",
+      "russian": "Нож"
+    },
+    {
+      "english": "Street",
+      "transcription": "Стрит",
+      "russian": "Улица"
+    },
+    {
+      "english": "Car",
+      "transcription": "Ка",
+      "russian": "Машина"
+    },
+    {
+      "english": "Bus",
+      "transcription": "Бас",
+      "russian": "Автобус"
+    },
+    {
+      "english": "Stadium",
+      "transcription": "Стэйдиум",
+      "russian": "Стадион"
+    },
+    {
+      "english": "Underground",
+      "transcription": "Андерграунд",
+      "russian": "Метрополитен, подземный, подпольный"
+    },
+    {
+      "english": "Bicycle",
+      "transcription": "Байсикл",
+      "russian": "Велосипед"
+    },
+    {
+      "english": "Train",
+      "transcription": "Трэин",
+      "russian": "Поезд, привлекать, воспитывать"
+    }
+  ],
+  "homeAnimals": [
+    {
+      "name": "Cat",
+      "transcript": "Кэт",
+      "translate": "Кошка",
+      "img": "https://img.freepik.com/free-vector/cute-cat-jumping-pose-vector_1308-138264.jpg?t=st=1719991566~exp=1719995166~hmac=fdf01e8b7ff155eb6e2e8e7601a42d71281787723fc21673da5b441c4bfd12eb&w=1800"
+    },
+    {
+      "name": "Kitten",
+      "transcript": "Киттен",
+      "translate": "Котёнок",
+      "img": "https://img.freepik.com/free-vector/little-cute-cat-cartoon-character_1308-138075.jpg?t=st=1719991688~exp=1719995288~hmac=9810e34666a7b97eaa27a925c0c4b1f768b49f2faac7ebf60a3da07cbf5da387&w=1060"
+    },
+    {
+      "name": "Dog",
+      "transcript": "Дог",
+      "translate": "Собака",
+      "img": "https://img.freepik.com/free-photo/3d-rendering-cartoon-dog-portrait_23-2150907242.jpg?t=st=1719991708~exp=1719995308~hmac=a8b92e3095ea7e3e71b5e36a6aaf89b1179a10c8b2dbb473ca50a003431c9f4b&w=900"
+    },
+    {
+      "name": "Puppy",
+      "transcript": "Паппи",
+      "translate": "Щенок",
+      "img": "https://img.freepik.com/free-photo/adorable-dalmatian-dog-studio_23-2150797090.jpg?t=st=1719991724~exp=1719995324~hmac=993f5d29a3ac539c37d93b772089fcfe76da9056e54f411a46b86667947c00e6&w=1800"
+    },
+    {
+      "name": "Rabbit",
+      "transcript": "Рэббит",
+      "translate": "Кролик",
+      "img": "https://img.freepik.com/free-photo/cute-ai-generated-cartoon-bunny_23-2150288886.jpg?t=st=1719991771~exp=1719995371~hmac=5883c98ab159a1844c1e3aaba0c0065933ccdfdb03e5b0a098f5b137d4769f17&w=1800"
+    },
+    {
+      "name": "Hamster",
+      "transcript": "Хамстэр",
+      "translate": "Хомяк",
+      "img": "https://img.freepik.com/premium-photo/cute-fat-mouse_1037171-62048.jpg?w=1800"
+    },
+    {
+      "name": "Guinea pig",
+      "transcript": "Джини пиг",
+      "translate": "Морская свинка",
+      "img": "https://img.freepik.com/free-photo/beautiful-guinea-pig-pet-portrait_23-2149152076.jpg?t=st=1719991873~exp=1719995473~hmac=476b3b1979786c978d9098e688337b03dbab7d6b9b93083bdc56f4d392b3271f&w=900"
+    },
+    {
+      "name": "Rat",
+      "transcript": "Рэт",
+      "translate": "Крыса",
+      "img": "https://img.freepik.com/free-photo/cute-possum-playing-piano_23-2151041022.jpg?t=st=1719991896~exp=1719995496~hmac=97357a221b02e749ee84e23220d91ac1f86ed17a0a407f5a27477646467448d3&w=1800"
+    },
+    {
+      "name": "Parrot",
+      "transcript": "Пэррот",
+      "translate": "Попугай",
+      "img": "https://img.freepik.com/free-photo/cartoony-parrot-studio_23-2151002298.jpg?t=st=1719991930~exp=1719995530~hmac=b2d3d128da60a4a424790547e2be935e4a93eee9ebb724deaabfb7475ac49746&w=1800"
+    },
+    {
+      "name": "Fish",
+      "transcript": "Фиш",
+      "translate": "Рыба",
+      "img": "https://img.freepik.com/free-photo/view-animated-cartoon-3d-fish_23-2150985082.jpg?t=st=1719991945~exp=1719995545~hmac=24dc874703c7f53eef6c1a684996bdbd20af8b5dc212ff8586dc217c0df087f2&w=900"
+    },
+    {
+      "name": "Goldfish",
+      "transcript": "Голдфиш",
+      "translate": "Золотая рыбка",
+      "img": "https://img.freepik.com/free-photo/3d-cartoon-fish-underwater_23-2150720914.jpg?t=st=1719991957~exp=1719995557~hmac=da1b87eff8253abdf252d1547eda6febf425808298b17d12c7d6f0daa7e427f8&w=740"
+    },
+    {
+      "name": "Turtle",
+      "transcript": "Тотл",
+      "translate": "Черепаха",
+      "img": "https://img.freepik.com/free-vector/happy-turtle-mascot-illustration_24908-82956.jpg?t=st=1719991997~exp=1719995597~hmac=f9e999c57f49b96c39218218efb05c25264b23dd64bd991cea24b3f6013191dd&w=1800"
+    },
+    {
+      "name": "Cow",
+      "transcript": "Кау",
+      "translate": "Корова",
+      "img": "https://img.freepik.com/free-photo/3d-cartoon-cow-illustration_23-2151581373.jpg?t=st=1719992013~exp=1719995613~hmac=db244621dc6ee2824ff8e24654595a67c3c26087382f95272a12905f26d22c3b&w=1800"
+    },
+    {
+      "name": "Horse",
+      "transcript": "Хорс",
+      "translate": "Лошадь",
+      "img": "https://img.freepik.com/free-photo/horse-cartoon-illustration_23-2151451258.jpg?t=st=1719992072~exp=1719995672~hmac=7b5d6509e61672385d68b9cfcea25266ba41cf502827a0367fdd9cbf1ab7ba30&w=1800"
+    },
+    {
+      "name": "Pig",
+      "transcript": "Пиг",
+      "translate": "Свинка",
+      "img": "https://img.freepik.com/free-vector/cheerful-cartoon-pig-illustration_1308-166360.jpg?t=st=1719992139~exp=1719995739~hmac=4e72dc02deef2465174ef2791c6e02dbc76bf263bc47668db45b0b653f4d8ac1&w=996"
+    },
+    {
+      "name": "Sheep",
+      "transcript": "Шип",
+      "translate": "Овечка",
+      "img": "https://img.freepik.com/premium-photo/fluffy-baby-sheep-with-curly-wool_917213-4617.jpg?w=1060"
+    },
+    {
+      "name": "Chiken",
+      "transcript": "Чикен",
+      "translate": "Курица",
+      "img": "https://img.freepik.com/free-vector/chicken-holding-green-leaf-white-background_1308-43652.jpg?t=st=1719992274~exp=1719995874~hmac=6d495ef81578adb05e941036c9d32e6570c263e75f71cbc3f00592cd1a4b3f43&w=1060"
+    },
+    {
+      "name": "Rooster",
+      "transcript": "Рустэр",
+      "translate": "Петух",
+      "img": "https://img.freepik.com/free-vector/chicken-cartoon-character-riding-skateboard_1308-87902.jpg?t=st=1719992333~exp=1719995933~hmac=1fbe7eb8dfaca5f2dedc9efcbd2cd58fcc48b1fe5827efcef6f9a7ab1535dc84&w=1800"
+    },
+    {
+      "name": "Duck",
+      "transcript": "Дак",
+      "translate": "Утка",
+      "img": "https://img.freepik.com/free-photo/cute-cartoony-duck-studio_23-2151002231.jpg?t=st=1719992355~exp=1719995955~hmac=34910fddb29711052c5b37ce85fdd8e7d3be461e8fe689c8019bd5d9c4771f8b&w=1800"
+    },
+    {
+      "name": "Goose",
+      "transcript": "Гус",
+      "translate": "Гусь",
+      "img": "https://img.freepik.com/free-photo/cute-duckling-water-3d-illustration-horizontal_1057-45693.jpg?t=st=1719992386~exp=1719995986~hmac=b9ee94e31949d6a2ba9d4d01e3497d57dbbbfe4cc480455f302756f0828d32db&w=1800"
+    },
+    {
+      "name": "Goat",
+      "transcript": "Гоат",
+      "translate": "Коза",
+      "img": "https://img.freepik.com/premium-photo/3d-cartoon-charakter-animal_1016686-23377.jpg?w=1060"
+    },
+    {
+      "name": "Turkey",
+      "transcript": "Турки",
+      "translate": "Индюк",
+      "img": "https://img.freepik.com/premium-vector/happy-thanksgiving-day-funny-cartoon-character-thanksgiving-turkey-bird_88465-2323.jpg?w=1380"
+    },
+    {
+      "name": "Donkey",
+      "transcript": "Данки",
+      "translate": "Осёл",
+      "img": "https://img.freepik.com/free-vector/cute-horse-cartoon-isolated_1308-146112.jpg?t=st=1719992565~exp=1719996165~hmac=978afa3d748cd334a8a8f1cc7393ab51417796b93337edf1f22ceae11d5a4098&w=1380"
+    }
+  ],
+  "wildAnimals": [
+    {
+      "name": "Lion",
+      "transcript": "Лайн",
+      "translate": "Лев",
+      "img": "https://img.freepik.com/free-photo/cute-lion-posing-studio_23-2150852453.jpg?t=st=1719992591~exp=1719996191~hmac=c50672ba0dc1f75a49e90301e6f0b236ad72e46f6211e77561f75b858bfd3338&w=900"
+    },
+    {
+      "name": "Tiger",
+      "transcript": "Тайгэ",
+      "translate": "Тигр",
+      "img": "https://img.freepik.com/free-photo/cut-tiger-studio_23-2150875324.jpg?t=st=1719992608~exp=1719996208~hmac=de342a7425774e6cd84e982e8a4c0e72588a64031816b23e620607f99b506538&w=1800"
+    },
+    {
+      "name": "Elephant",
+      "transcript": "Элефант",
+      "translate": "Слон",
+      "img": "https://img.freepik.com/free-photo/cute-elephant-nature_23-2150895557.jpg?t=st=1719992628~exp=1719996228~hmac=a26cd6e974b23892d9be48e07cdfd4f465087773f9ec346404441212ccbd6b4c&w=900"
+    },
+    {
+      "name": "Girrafe",
+      "transcript": "Джираф",
+      "translate": "Жираф",
+      "img": "https://img.freepik.com/free-vector/cute-giraffe-flat-style_1308-114113.jpg?t=st=1719992701~exp=1719996301~hmac=c672a2d0e0aa204584129ae33199d92521f21c03c378a625725a2ebfdbe1670b&w=740"
+    },
+    {
+      "name": "Zebra",
+      "transcript": "Зибра",
+      "translate": "Зебра",
+      "img": "https://img.freepik.com/free-vector/cute-zebra-cartoon-animal-character_1308-149417.jpg?t=st=1719992729~exp=1719996329~hmac=f0fe77218313844fbdefa9bc812b1e86ee8d4be32e5b2f933d915a20dab2cadc&w=1060"
+    },
+    {
+      "name": "Leopard",
+      "transcript": "Леопэрд",
+      "translate": "Леопард",
+      "img": "https://img.freepik.com/free-photo/cute-tiger-studio_23-2150853199.jpg?t=st=1719992766~exp=1719996366~hmac=2ec113540f12fa9a948b7d04b21e73b893d608038a1b92464f5fff5c8bfeb52e&w=900"
+    },
+    {
+      "name": "Cheetah",
+      "transcript": "Читэ",
+      "translate": "Гепард",
+      "img": "https://img.freepik.com/free-photo/3d-rendered-illustration-cheetah-cartoon-character-white-background_1057-44906.jpg?t=st=1719992803~exp=1719996403~hmac=f70d05b15a1d51f03eae17a7b3a2a179feab6a375ee331f6f557d10eaf345cf6&w=1800"
+    },
+    {
+      "name": "Wolf",
+      "transcript": "Вулф",
+      "translate": "Волк",
+      "img": "https://img.freepik.com/free-photo/3d-rendering-cartoon-dog-portrait_23-2150907222.jpg?t=st=1719992832~exp=1719996432~hmac=573b7505aef5b801065a74244aa24a79e618b41e104cd3341ff7cdf6923fb938&w=1800"
+    },
+    {
+      "name": "Bear",
+      "transcript": "Бэа",
+      "translate": "Медведь",
+      "img": "https://img.freepik.com/free-photo/3d-cartoon-character-practising-yoga_23-2151467813.jpg?t=st=1719992874~exp=1719996474~hmac=929737b2af1b156682ce432157446865bdcf9a49500bbf3102eec0b2907b8713&w=1060"
+    },
+    {
+      "name": "Fox",
+      "transcript": "Фокс",
+      "translate": "Лиса",
+      "img": "https://img.freepik.com/free-photo/3d-fox-cartoon-illustration_23-2151395215.jpg?t=st=1719992896~exp=1719996496~hmac=05bab689cf7977d2d5c05872f33e8e19484081c8cb2dc818eebc0695446acee1&w=1800"
+    },
+    {
+      "name": "Rhinoceros",
+      "transcript": " Райносерос",
+      "translate": "Носорог",
+      "img": "https://img.freepik.com/free-vector/rhinoceros-cartoon-character-standing-white-background_1308-159594.jpg?t=st=1719992921~exp=1719996521~hmac=be3d893308a66aac109adc76082ddb69d8ec9bc394e772e826a0c5ba8013803f&w=1060"
+    },
+    {
+      "name": "Hippopotamus",
+      "transcript": "Хипопотэмус",
+      "translate": "Бегемот",
+      "img": "https://img.freepik.com/free-vector/cheerful-cartoon-hippopotamus-illustration_1308-165828.jpg?t=st=1719992972~exp=1719996572~hmac=a4b5d3e770caa3ff946cd9cab6dc5cec3a828fba808a97fb886b5f6fc7549081&w=1060"
+    },
+    {
+      "name": "Crocodile",
+      "transcript": "Крокодайл",
+      "translate": "Крокодил",
+      "img": "https://img.freepik.com/free-photo/cute-green-crocodile-grass-3d-illustration_1057-45560.jpg?t=st=1719992995~exp=1719996595~hmac=fcbdec7ed16bdfc7fdab8f2d69d1c21ea44da9ec4dddc217358834525d717938&w=1800"
+    },
+    {
+      "name": "Gorilla",
+      "transcript": "Горилэ",
+      "translate": "Горилла",
+      "img": "https://img.freepik.com/free-vector/cheerful-cartoon-gorilla-sitting_1308-166549.jpg?t=st=1719993030~exp=1719996630~hmac=8d9ee24fe0619dec5ae343de1265879a46c9659ade4ce6f03d5165bf2fd767ee&w=1060"
+    },
+    {
+      "name": "Kangaroo",
+      "transcript": "Кэнгуру",
+      "translate": "Кенгуру",
+      "img": "https://img.freepik.com/free-vector/kangaroo-cartoon-character-isolated_1308-112585.jpg?t=st=1719993053~exp=1719996653~hmac=81f3dccf9db55c69230c5de4540ee958759809d8027d97af0b74e15bde563f0e&w=1800"
+    },
+    {
+      "name": "Koala",
+      "transcript": "Коэлэ",
+      "translate": "Коала",
+      "img": "https://img.freepik.com/free-vector/cute-koala-cartoon-character_1308-132636.jpg?t=st=1719993089~exp=1719996689~hmac=568a5c19fe2e3338f7d12a6a0538bcc6db5a13f9dc71601811b304e5c2c97cf2&w=1800"
+    },
+    {
+      "name": "Panda",
+      "transcript": "Пэнда",
+      "translate": "Панда",
+      "img": "https://img.freepik.com/free-vector/hand-drawn-cartoon-panda-illustration_23-2150456173.jpg?t=st=1720010285~exp=1720013885~hmac=87d6e416ebaf550c53788e914c3accaea7dd3cfcdd19e22205236285ca417215&w=1380"
+    },
+    {
+      "name": "Jaguar",
+      "transcript": "Джэгуа",
+      "translate": "Ягуар",
+      "img": "https://img.freepik.com/free-photo/view-leopard-animal-wild_23-2150374822.jpg?t=st=1719993162~exp=1719996762~hmac=4308e12707ac2fc1b67838a24a878fba5c6a93a8d3df18bc148a3b3f80aed99a&w=900"
+    },
+    {
+      "name": "Moose",
+      "transcript": "Мус",
+      "translate": "Лось",
+      "img": "https://img.freepik.com/premium-photo/cute-funny-cartoon-moose-illustration-children-book-generative-ai_836477-23880.jpg?w=1800"
+    }
+  ],
+  "repAmph": [
+    {
+      "name": "Snake",
+      "transcript": "Снейк",
+      "translate": "Змея",
+      "img": "https://img.freepik.com/free-psd/cute-animals-element-design_23-2150385507.jpg?t=st=1719993749~exp=1719997349~hmac=e416d448dfe035de9d3a652752589450b8ee65840a27c160216d2d99ffb1b456&w=1800"
+    },
+    {
+      "name": "Lizard",
+      "transcript": "Лизэрд",
+      "translate": "Ящерица",
+      "img": "https://img.freepik.com/premium-vector/cute-lizard-cartoon_160606-119.jpg?w=1800"
+    },
+    {
+      "name": "Crocodile",
+      "transcript": "Крокодайл",
+      "translate": "Крокодил",
+      "img": "https://img.freepik.com/free-vector/cute-crocodile-cartoon-character_1308-132614.jpg?t=st=1719993805~exp=1719997405~hmac=2724fc8ea0759ca7fcb54c64c2cc26832ceb0622c581143a051a78fa63231d5a&w=1800"
+    },
+    {
+      "name": "Alligator",
+      "transcript": "Алигэйтэ",
+      "translate": "Аллигатор",
+      "img": "https://img.freepik.com/free-vector/sticker-template-crocodile-cartoon-character_1308-80501.jpg?t=st=1719993902~exp=1719997502~hmac=0011e135d731e3d241a67f555124a6f114213cb81393d8d7da5ce9db2920d7b0&w=1800"
+    },
+    {
+      "name": "Turtle",
+      "transcript": "Тотл",
+      "translate": "Черепаха",
+      "img": "https://img.freepik.com/premium-vector/turtle-swimming-water-with-smile-its-face_889056-219910.jpg?w=1800"
+    },
+    {
+      "name": "Tortoise",
+      "transcript": "Тортэс",
+      "translate": "Сухопутная черепаха",
+      "img": "https://img.freepik.com/premium-photo/3d-turtle-cartoon-character_1037171-37449.jpg?w=1800"
+    },
+    {
+      "name": "Gecko",
+      "transcript": "Геко",
+      "translate": "Геккон",
+      "img": "https://img.freepik.com/free-vector/funny-lizard-cartoon-character_1308-138204.jpg?t=st=1719993991~exp=1719997591~hmac=e188f5d0791b554fbfa25e95c4964ce243b92b2b07c808f9c05b569c06cff126&w=900"
+    },
+    {
+      "name": "Chameleon",
+      "transcript": "Хамилиэн",
+      "translate": "Хамелеон",
+      "img": "https://img.freepik.com/premium-photo/colorful-chameleon-with-flowers-pink-background_924629-244004.jpg?w=1800"
+    },
+    {
+      "name": "Iguana",
+      "transcript": "Игуэнэ",
+      "translate": "Игуана",
+      "img": "https://img.freepik.com/free-vector/hand-drawn-cartoon-iguana-illustration_23-2150387679.jpg?t=st=1719993838~exp=1719997438~hmac=f72f320de3c41264e29f056ca20f2524e34bcf1bfeaf443e4dd8df47c309ad07&w=1800"
+    },
+    {
+      "name": "Anaconda",
+      "transcript": "Анакондэ",
+      "translate": "Анаконда",
+      "img": "https://img.freepik.com/free-photo/close-up-snake-natural-habitat_23-2150536847.jpg?t=st=1719994091~exp=1719997691~hmac=7c233bab799b445f54b25beb7620809ba4c456b45644407ecf348e35f2257c79&w=1800"
+    },
+    {
+      "name": "Frog",
+      "transcript": "Фрог",
+      "translate": "Лягяшка",
+      "img": "https://img.freepik.com/free-photo/view-frog-nature_23-2150453182.jpg?t=st=1719994122~exp=1719997722~hmac=e50283e5fd5522e7fa9f9c7f9b4a89350c80fbee6ead811e1b5ca5179be281fc&w=900"
+    },
+    {
+      "name": "Toad",
+      "transcript": "Тоад",
+      "translate": "Жаба",
+      "img": "https://img.freepik.com/free-photo/view-frog-nature_23-2150453193.jpg?t=st=1719994151~exp=1719997751~hmac=511336be8e631cde5d36c72795adf9197f997f3615f433f65544e8e39c70954f&w=1800"
+    },
+    {
+      "name": "Mollusk",
+      "transcript": "Малэск",
+      "translate": "Моллюск",
+      "img": "https://img.freepik.com/free-vector/hand-drawn-cartoon-clam-illustration_23-2150590983.jpg?t=st=1719994193~exp=1719997793~hmac=910ac48065754eacc7c96e80138b35be0706e29a6911c20b1ee9d448dcbf34a2&w=1800"
+    },
+    {
+      "name": "Snail",
+      "transcript": "Снэил",
+      "translate": "Улитка",
+      "img": "https://img.freepik.com/premium-photo/3d-rendering-happy-snail-isolated-white-background-snail-has-yellow-shell-brown-body-it-is-smiling-has-its-eyes-wide-open_14117-33293.jpg?w=1800"
+    },
+    {
+      "name": "Crab",
+      "transcript": "Крэб",
+      "translate": "Краб",
+      "img": "https://img.freepik.com/free-photo/view-crab-cartoon-style_23-2151120286.jpg?t=st=1719994245~exp=1719997845~hmac=6f9b595b4246e202fe0c46f65c930ad43646219c3e6bb02e10b7b46fe0f278d5&w=1800"
+    }
+  ],
+  "fish": [
+    {
+      "name": "Salmon",
+      "transcript": "Сэлмон",
+      "translate": "Лосось",
+      "img": "https://img.freepik.com/free-photo/view-animated-cartoon-3d-fish_23-2150985082.jpg?t=st=1719991945~exp=1719995545~hmac=24dc874703c7f53eef6c1a684996bdbd20af8b5dc212ff8586dc217c0df087f2&w=900"
+    },
+    {
+      "name": "Trout",
+      "transcript": "Троут",
+      "translate": "Форель",
+      "img": "https://img.freepik.com/free-vector/koi-carp-fish-cartoon-sticker_1308-60297.jpg?t=st=1719994329~exp=1719997929~hmac=9eaa2f52b1cd4d10e8f5073f5ca69b1262b3cd8b7366a7f060350bb1c18630fd&w=1800"
+    },
+    {
+      "name": "Tuna",
+      "transcript": "Туна",
+      "translate": "Тунец",
+      "img": "https://img.freepik.com/premium-photo/english-clip-art-bowl-clipart-rimless-aquarium-good-clipart-medication-clipart-ramen-clipart_1072870-15529.jpg?w=1800"
+    },
+    {
+      "name": "Cod",
+      "transcript": "Код",
+      "translate": "Треска",
+      "img": "https://img.freepik.com/free-vector/atlantic-bluefin-tuna-sticker-white-background_1308-79260.jpg?t=st=1719994373~exp=1719997973~hmac=80e9588c2f0858a97581b746f9b99cbf9873b285ecc0dedf9038c6cf425a297f&w=1800"
+    },
+    {
+      "name": "Carp",
+      "transcript": "Карп",
+      "translate": "Карп",
+      "img": "https://img.freepik.com/free-vector/cute-goldfish-cartoon-illustration_1308-148611.jpg?t=st=1719994390~exp=1719997990~hmac=92bc5a4e34473fa64c3e787aca59f6988c7e2db93ed397191895d1f0d8e2c964&w=1800"
+    },
+    {
+      "name": "Goldfish",
+      "transcript": "Голдфиш",
+      "translate": "Золотая рыбка",
+      "img": "https://img.freepik.com/free-photo/view-animated-cartoon-3d-fish_23-2150985128.jpg?t=st=1719994409~exp=1719998009~hmac=c3e3cb6176d0391e62b92417ac6f15dee6eb04867de89a61f9801425676c1341&w=1800"
+    },
+    {
+      "name": "Shark",
+      "transcript": "Шарк",
+      "translate": "Акула",
+      "img": "https://img.freepik.com/premium-vector/great-white-shark-smiling_1639-51848.jpg?w=1380"
+    },
+    {
+      "name": "Dolphin",
+      "transcript": "Долфин",
+      "translate": "Дельфин",
+      "img": "https://img.freepik.com/free-photo/3d-beautiful-dolphin_23-2151106510.jpg?t=st=1719994454~exp=1719998054~hmac=b3e9e6d24eb59ceac021f0c4296f94fbcaf5e55a3a18e64a0abd4cc394e3a1b9&w=740"
+    },
+    {
+      "name": "Swordfish",
+      "transcript": "Содфиш",
+      "translate": "Рбыа-меч",
+      "img": "https://optim.tildacdn.com/tild3964-3666-4836-a165-373630643933/-/resize/824x/-/format/webp/Swordfish_Species_01.jpg"
+    },
+    {
+      "name": "Seahorse",
+      "transcript": "Сихорс",
+      "translate": "Морской конёк",
+      "img": "https://img.freepik.com/free-photo/view-cartoon-sea-horse-underwater_23-2150985020.jpg?t=st=1719994556~exp=1719998156~hmac=b383ef570f0ff7327bd10d2f81020d9db77a2e8830a37f2028541257ed5348d3&w=1800"
+    }
+  ],
+
+  "birds": [
+    {
+      "name": "Sparrow",
+      "transcript": "Спэроу",
+      "translate": "Воробей",
+      "img": "https://img.freepik.com/free-photo/cute-cartoony-sparrow-studio_23-2151002220.jpg?t=st=1719993224~exp=1719996824~hmac=a9f1e84c774f9918dac76c0d13269067cbfac009b7ee8cc49e249506e44adbb0&w=1800"
+    },
+    {
+      "name": "Eagle",
+      "transcript": "Игл",
+      "translate": "Орёл",
+      "img": "https://img.freepik.com/free-photo/3d-rendering-cartoonish-eagle_23-2151056212.jpg?t=st=1719993242~exp=1719996842~hmac=e23078fbd4c843a798366f4f2c2e9777cc481cfb904e0f09e884e95f989990fb&w=900"
+    },
+    {
+      "name": "Hawk",
+      "transcript": "Хок",
+      "translate": "Ястреб",
+      "img": "https://img.freepik.com/free-photo/cute-cartoony-eagle-nature_23-2151002245.jpg?t=st=1719993257~exp=1719996857~hmac=ef0f764900d4fda21829372f9f4098c4e218b5f4982723ab00418f437a869f46&w=1800"
+    },
+    {
+      "name": "Falcon",
+      "transcript": "Фэлкон",
+      "translate": "Сокол",
+      "img": "https://img.freepik.com/free-photo/3d-rendering-cartoon-like-eagle_23-2151056161.jpg?t=st=1719993273~exp=1719996873~hmac=faebc95bf6e659504c7898b996c1663c111e5ea029cef2e15441c8165807074d&w=900"
+    },
+    {
+      "name": "Owl",
+      "transcript": "Оул",
+      "translate": "Сова",
+      "img": "https://img.freepik.com/free-photo/cartoony-owl-nature_23-2151002153.jpg?t=st=1719993296~exp=1719996896~hmac=4e53098f5155cd13cc6f5c351812b5287b171e44232338af33d4c090286036ee&w=1800"
+    },
+    {
+      "name": "Pigeon",
+      "transcript": "Пиджэн",
+      "translate": "Голубь",
+      "img": "https://img.freepik.com/free-photo/cute-cartoony-dove-studio_23-2151002241.jpg?t=st=1719993332~exp=1719996932~hmac=285b56efd882c599a901690e8f8a9dc2c0f3707a2dd5bb45fba362bc26366af4&w=900"
+    },
+    {
+      "name": "Parrot",
+      "transcript": "Пэрэт",
+      "translate": "Попугай",
+      "img": "https://img.freepik.com/free-photo/cartoony-parrot-studio_23-2151002298.jpg?t=st=1719991930~exp=1719995530~hmac=b2d3d128da60a4a424790547e2be935e4a93eee9ebb724deaabfb7475ac49746&w=1800"
+    },
+    {
+      "name": "Canary",
+      "transcript": "Кэнери",
+      "translate": "Канарейка",
+      "img": "https://img.freepik.com/free-photo/cartoony-bird-studio_23-2151002186.jpg?t=st=1719993362~exp=1719996962~hmac=13b1b4cb285457e92086f84aba918c689fcc2f3e6307ac0c5bc02d6e36765460&w=1800"
+    },
+    {
+      "name": "Swan",
+      "transcript": "Свэн",
+      "translate": "Лебедь",
+      "img": "https://img.freepik.com/free-vector/cute-swan-princess_23-2148487544.jpg?t=st=1719993419~exp=1719997019~hmac=8296b224924b9213c6bc96e44791992c85c7055130ac0af94e1bb49f1b71dce1&w=1800"
+    },
+    {
+      "name": "Duck",
+      "transcript": "Дак",
+      "translate": "Утка",
+      "img": "https://img.freepik.com/free-photo/cute-cartoony-duck-studio_23-2151002231.jpg?t=st=1719992355~exp=1719995955~hmac=34910fddb29711052c5b37ce85fdd8e7d3be461e8fe689c8019bd5d9c4771f8b&w=1800"
+    },
+    {
+      "name": "Goose",
+      "transcript": "Гус",
+      "translate": "Гусь",
+      "img": "https://img.freepik.com/free-photo/cute-duckling-water-3d-illustration-horizontal_1057-45693.jpg?t=st=1719992386~exp=1719995986~hmac=b9ee94e31949d6a2ba9d4d01e3497d57dbbbfe4cc480455f302756f0828d32db&w=1800"
+    },
+    {
+      "name": "Peacock",
+      "transcript": "Пикок",
+      "translate": "Павлин",
+      "img": "https://img.freepik.com/free-photo/cute-cartoony-peacock-nature_23-2151002274.jpg?t=st=1719993463~exp=1719997063~hmac=a013dd0f16a1d2516e564b09b2aec990a182bc4cecd492e53a47e8ebab91d5f6&w=1800"
+    },
+    {
+      "name": "Hummingbird",
+      "transcript": "Хаминбёд",
+      "translate": "Колибри",
+      "img": "https://img.freepik.com/free-vector/beautiful-flying-hummingbird-design-element-banners-posters-leaflets-brochures_1262-13457.jpg?t=st=1719993487~exp=1719997087~hmac=96c363db3b30c48fa6e1e634bb0154e0956320eae064824c357383080e24be87&w=1380"
+    },
+    {
+      "name": "Ostrich",
+      "transcript": "Острич",
+      "translate": "Страус",
+      "img": "https://img.freepik.com/free-photo/cartoony-ostrich-studio_23-2151002291.jpg?t=st=1719993509~exp=1719997109~hmac=f738b8ddb846705a88a1205a3edc0c2d054f34d6d5782ea5af028cbbd701540a&w=1800"
+    },
+    {
+      "name": "Seagull",
+      "transcript": "Сигал",
+      "translate": "Чайка",
+      "img": "https://img.freepik.com/free-photo/cartoony-bird-nature_23-2151002158.jpg?t=st=1719993530~exp=1719997130~hmac=c36a0f0d057b017b5cdc5b18e38d019ae254c9664b6c29121f1ecea306846b78&w=1800"
+    },
+    {
+      "name": "Woodpecker",
+      "transcript": "Вудпекэ",
+      "translate": "Дятел",
+      "img": "https://img.freepik.com/premium-photo/3d-rendered-plastic-cartoon-woodpecker-white-background_899449-143619.jpg?w=1800"
+    },
+    {
+      "name": "Flamingo",
+      "transcript": "Фламингоу",
+      "translate": "Фламинго",
+      "img": "https://img.freepik.com/free-photo/beautiful-flamingos-lake_23-2150536817.jpg?t=st=1719993671~exp=1719997271~hmac=640a13d4a24b60041e94e1b15f79122a8fc67964b6b2ab5a2f0120ee440a0437&w=900"
+    },
+    {
+      "name": "Pelican",
+      "transcript": "Пеликэн",
+      "translate": "Пеликан",
+      "img": "https://img.freepik.com/free-photo/cartoony-bird-studio_23-2151002185.jpg?t=st=1719993688~exp=1719997288~hmac=1674f735e27a723e139f56aca992e9540a3396d825cc25176a38ed1637b98b84&w=1800"
+    }
+  ]
+}
