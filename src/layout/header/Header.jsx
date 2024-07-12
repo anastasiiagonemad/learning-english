@@ -77,6 +77,11 @@ function Header({ loggedIn }) {
                     Quiz
                   </Link>
                 </li>
+                <li>
+                  <Link onClick={handleLinkClick} to="Test">
+                    Test
+                  </Link>
+                </li>
               </ul>
               <button onClick={handleCloseMenu} className="close-button">
                 Close

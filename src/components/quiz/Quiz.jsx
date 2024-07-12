@@ -68,6 +68,10 @@ const Quiz = () => {
         setIsCorrect(false);
       } else {
         setCurrentWordIndex(0);
+        setShowTranslation(false);
+        setAnswer('');
+        setCorrectAnswer('');
+        setIsCorrect(false);
       }
     }
   };
